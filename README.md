@@ -13,7 +13,7 @@ The need to “speak computer” is no longer a barrier to leveraging machines. 
 
 
 ### Information
-This project aims to create a model that predicts sufficiently the sentiment of a sentence. The project was developed on the IMDB Review dataset that contains 50.000 reviews both negative and positive. Many preprocessing strategies have been used in order to clean our data in order to move to the next step which is to transform them into a language that the computer can read. A Neural Network was build containg one Embedding Layer, a Conv1D layer , two LSTM layers and 2 Dropout layers. Overall, our model achieved an accuracy of 87.5% in the validation set and 98% on the training set. To confirm this accuracy , we first predict some random reviews from our dataset and afterwards, we create our own sentences and markdown its accuracy.
+This project aims to create a model that predicts sufficiently the sentiment of a sentence. The project was developed on the IMDB Review dataset that contains 50.000 reviews both negative and positive. Many preprocessing strategies have been used in order to clean our data in order to move to the next step which is to transform them into a language that the computer can read. A Neural Network was build containg one Embedding Layer, a Conv1D layer , two LSTM layers , two Dropout layers to reduce overfitting and one Dense layer. Overall, our model achieved an accuracy of 87.5% in the validation set and 98% on the training set. To confirm this accuracy , we first predict some random reviews from our dataset and afterwards, we create our own sentences and markdown its accuracy.
 
 
 
